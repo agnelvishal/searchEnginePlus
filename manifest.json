@@ -1,0 +1,12 @@
+  {
+    "name": "Search engine plus",
+    "version": "1.0",
+    "description": " Power up your search experience.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["background.js"]
+    }
+  ],
+    "manifest_version": 2
+  }
