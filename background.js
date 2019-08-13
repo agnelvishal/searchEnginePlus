@@ -44,7 +44,7 @@
 
     async function global(cite) {
 
-        var access_token ='862610110509533|oygAO3_Y8rWV-AJ7OM9k57VWQP8';
+        var access_token ='';
         var item = await fb(cite,access_token);
        // console.log(item);
         
